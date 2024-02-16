@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.astro.shop')
 
 'Estimasi menunggu page terload'
-Mobile.delay(15, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.pressBack()
 
