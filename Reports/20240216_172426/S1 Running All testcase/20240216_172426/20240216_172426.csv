@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+S1 Running All testcase,,,,2024-02-16 17:24:30,2024-02-16 17:26:15,"1m - 45,456s",PASSED
+,,,,,,,
+Test Cases/Quit apps from home page,,,,2024-02-16 17:24:30,2024-02-16 17:25:20,"49,460s",PASSED
+"startExistingApplication(""com.astro.shop"")",,,,2024-02-16 17:24:31,2024-02-16 17:25:01,"29,782s",PASSED
+"delay(15, STOP_ON_FAILURE)",,Estimasi menunggu page terload,,2024-02-16 17:25:01,2024-02-16 17:25:16,"15,056s",PASSED
+pressBack(),,,,2024-02-16 17:25:16,2024-02-16 17:25:16,"0,352s",PASSED
+pressBack(),,,,2024-02-16 17:25:16,2024-02-16 17:25:17,"1,086s",PASSED
+closeApplication(),,,,2024-02-16 17:25:17,2024-02-16 17:25:20,"2,550s",PASSED
+,,,,,,,
+Test Cases/Changing profile name,,,,2024-02-16 17:25:20,2024-02-16 17:26:15,"55,585s",PASSED
+"startExistingApplication(""com.astro.shop"")",,,,2024-02-16 17:25:20,2024-02-16 17:25:47,"26,585s",PASSED
+"tap(findTestObject(""Home/Icon profile footer - Button""), 0)",,,,2024-02-16 17:25:47,2024-02-16 17:26:01,"14,274s",PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2024-02-16 17:26:01,2024-02-16 17:26:04,"3,007s",PASSED
+"tap(findTestObject(""Profile/Detail Akun/Detail akun - Button""), 0)",,,,2024-02-16 17:26:04,2024-02-16 17:26:06,"1,397s",PASSED
+"tap(findTestObject(""Profile/Detail Akun/android.widget.EditText - Arieff""), 0)",,,,2024-02-16 17:26:06,2024-02-16 17:26:08,"2,091s",PASSED
+"setText(findTestObject(""Profile/Detail Akun/android.widget.EditText - Arieff (1)""), ""Arief testing QA"", 0)",,,,2024-02-16 17:26:08,2024-02-16 17:26:10,"1,937s",PASSED
+hideKeyboard(),,,,2024-02-16 17:26:10,2024-02-16 17:26:12,"2,392s",PASSED
+"tap(findTestObject(""Object Repository/Profile/Detail Akun/Simpan perubahan - Button""), 0)",,,,2024-02-16 17:26:12,2024-02-16 17:26:13,"0,471s",PASSED
+closeApplication(),,,,2024-02-16 17:26:13,2024-02-16 17:26:15,"2,893s",PASSED

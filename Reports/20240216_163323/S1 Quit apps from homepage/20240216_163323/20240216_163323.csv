@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+S1 Quit apps from homepage,,,,2024-02-16 16:33:28,2024-02-16 16:33:43,"15,035s",FAILED
+,,,,,,,
+Test Cases/Quit apps from home page,,,,2024-02-16 16:33:28,2024-02-16 16:33:43,"14,644s",FAILED
+"startExistingApplication(""com.astro.shop"")",,,,2024-02-16 16:33:29,2024-02-16 16:33:43,"13,991s",FAILED

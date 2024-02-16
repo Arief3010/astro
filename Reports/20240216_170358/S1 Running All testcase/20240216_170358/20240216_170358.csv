@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+S1 Running All testcase,,,,2024-02-16 17:04:03,2024-02-16 17:06:02,"1m - 59,858s",FAILED
+,,,,,,,
+Test Cases/Quit apps from home page,,,,2024-02-16 17:04:03,2024-02-16 17:04:51,"48,362s",PASSED
+"startExistingApplication(""com.astro.shop"")",,,,2024-02-16 17:04:04,2024-02-16 17:04:33,"28,925s",PASSED
+"delay(15, STOP_ON_FAILURE)",,Estimasi menunggu page terload,,2024-02-16 17:04:33,2024-02-16 17:04:48,"15,061s",PASSED
+pressBack(),,,,2024-02-16 17:04:48,2024-02-16 17:04:48,"0,346s",PASSED
+pressBack(),,,,2024-02-16 17:04:48,2024-02-16 17:04:49,"1,043s",PASSED
+closeApplication(),,,,2024-02-16 17:04:49,2024-02-16 17:04:51,"2,295s",PASSED
+,,,,,,,
+Test Cases/Changing profile name,,,,2024-02-16 17:04:51,2024-02-16 17:06:02,"1m - 11,071s",FAILED
+"startExistingApplication(""com.astro.shop"")",,,,2024-02-16 17:04:52,2024-02-16 17:05:13,"21,180s",PASSED
+"tap(findTestObject(""Home/Icon profile footer - Button""), 0)",,,,2024-02-16 17:05:13,2024-02-16 17:05:27,"13,516s",PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2024-02-16 17:05:27,2024-02-16 17:05:30,"3,009s",PASSED
+"tap(findTestObject(""Profile/Detail Akun/Detail akun - Button""), 0)",,,,2024-02-16 17:05:30,2024-02-16 17:05:31,"1,454s",PASSED
+"setText(findTestObject(""Profile/Detail Akun/Nama - Edit text""), ""Arief testing QA"", 0)",,,,2024-02-16 17:05:31,2024-02-16 17:06:02,"31,334s",FAILED

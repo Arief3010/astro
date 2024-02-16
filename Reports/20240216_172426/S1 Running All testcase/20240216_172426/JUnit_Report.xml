@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="S1 Running All testcase" time="105.456" tests="2" failures="0" errors="0">
+   <testsuite name="S1 Running All testcase" tests="2" failures="0" errors="0" time="105.456" skipped="0" timestamp="2024-02-16 17:24:30" hostname="USER - DESKTOP-VIB7852" id="Test Suites/S1 Running All testcase">
+      <properties>
+         <property name="deviceName" value="LENOVO Lenovo A7010a48 (Android 6.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\Katalon Studio\\Gitcode\\Katalon-git-astro\\Reports\\20240216_172426\\S1 Running All testcase\\20240216_172426"/>
+         <property name="logFiles" value="C:\\Users\\USER\\Katalon Studio\\Gitcode\\Katalon-git-astro\\Reports\\20240216_172426\\S1 Running All testcase\\20240216_172426\\appium.log, C:\\Users\\USER\\Katalon Studio\\Gitcode\\Katalon-git-astro\\Reports\\20240216_172426\\S1 Running All testcase\\20240216_172426\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - DESKTOP-VIB7852"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Lenovo A7010a48"/>
+         <property name="hostAddress" value="192.168.24.48"/>
+         <property name="deviceManufacturer" value="LENOVO"/>
+         <property name="deviceId" value="Y9554SQWZD85YDOR"/>
+         <property name="deviceName" value="LENOVO Lenovo A7010a48 (Android 6.0)"/>
+         <property name="deviceOSVersion" value="6.0"/>
+      </properties>
+      <testcase name="Test Cases/Quit apps from home page" time="49.46" classname="Test Cases/Quit apps from home page" status="PASSED">
+         <system-out><![CDATA[2024-02-16 17:24:30 - [TEST_CASE][PASSED] - Test Cases/Quit apps from home page: Test Cases/Quit apps from home page
+
+2024-02-16 17:24:31 - [TEST_STEP][PASSED] - startExistingApplication("com.astro.shop"): Starting app with application ID: 'com.astro.shop'
+
+2024-02-16 17:24:32 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2024-02-16 17:24:33 - [MESSAGE][INFO] - Appium server started on port 59.376
+
+2024-02-16 17:25:00 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2024-02-16 17:25:01 - [MESSAGE][PASSED] - Starting app with application ID: 'com.astro.shop'
+
+2024-02-16 17:25:01 - [TEST_STEP][PASSED] - delay(15, STOP_ON_FAILURE): Delayed 15 second(s)
+
+2024-02-16 17:25:16 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2024-02-16 17:25:16 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2024-02-16 17:25:16 - [MESSAGE][PASSED] - Press back button successfully
+
+2024-02-16 17:25:16 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2024-02-16 17:25:17 - [MESSAGE][PASSED] - Press back button successfully
+
+2024-02-16 17:25:17 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2024-02-16 17:25:20 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Changing profile name" time="55.585" classname="Test Cases/Changing profile name" status="PASSED">
+         <system-out><![CDATA[2024-02-16 17:25:20 - [TEST_CASE][PASSED] - Test Cases/Changing profile name: Test Cases/Changing profile name
+
+2024-02-16 17:25:20 - [TEST_STEP][PASSED] - startExistingApplication("com.astro.shop"): Starting app with application ID: 'com.astro.shop'
+
+2024-02-16 17:25:21 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2024-02-16 17:25:22 - [MESSAGE][INFO] - Appium server started on port 59.594
+
+2024-02-16 17:25:46 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2024-02-16 17:25:47 - [MESSAGE][PASSED] - Starting app with application ID: 'com.astro.shop'
+
+2024-02-16 17:25:47 - [TEST_STEP][PASSED] - tap(findTestObject("Home/Icon profile footer - Button"), 0): Tapped on element 'Object Repository/Home/Icon profile footer - Button'
+
+2024-02-16 17:25:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-16 17:26:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Home/Icon profile footer - Button'
+
+2024-02-16 17:26:01 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2024-02-16 17:26:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-02-16 17:26:04 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/Detail Akun/Detail akun - Button"), 0): Tapped on element 'Object Repository/Profile/Detail Akun/Detail akun - Button'
+
+2024-02-16 17:26:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-16 17:26:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/Detail Akun/Detail akun - Button'
+
+2024-02-16 17:26:06 - [TEST_STEP][PASSED] - tap(findTestObject("Profile/Detail Akun/android.widget.EditText - Arieff"), 0): Tapped on element 'Object Repository/Profile/Detail Akun/android.widget.EditText - Arieff'
+
+2024-02-16 17:26:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-16 17:26:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/Detail Akun/android.widget.EditText - Arieff'
+
+2024-02-16 17:26:08 - [TEST_STEP][PASSED] - setText(findTestObject("Profile/Detail Akun/android.widget.EditText - Arieff (1)"), "Arief testing QA", 0): Text 'Arief testing QA' has been set to element 'Object Repository/Profile/Detail Akun/android.widget.EditText - Arieff (1)'
+
+2024-02-16 17:26:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-16 17:26:10 - [MESSAGE][PASSED] - Text 'Arief testing QA' has been set to element 'Object Repository/Profile/Detail Akun/android.widget.EditText - Arieff (1)'
+
+2024-02-16 17:26:10 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2024-02-16 17:26:12 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2024-02-16 17:26:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Profile/Detail Akun/Simpan perubahan - Button"), 0): Tapped on element 'Object Repository/Profile/Detail Akun/Simpan perubahan - Button'
+
+2024-02-16 17:26:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-16 17:26:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/Detail Akun/Simpan perubahan - Button'
+
+2024-02-16 17:26:13 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2024-02-16 17:26:15 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-02-16 17:24:30 - [TEST_SUITE][PASSED] - S1 Running All testcase: Test Cases/Changing profile name]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="S1 Quit apps from homepage" time="51.615" tests="1" failures="0" errors="0">
+   <testsuite name="S1 Quit apps from homepage" tests="1" failures="0" errors="0" time="51.615" skipped="0" timestamp="2024-02-16 16:34:47" hostname="USER - DESKTOP-VIB7852" id="Test Suites/S1 Quit apps from homepage">
+      <properties>
+         <property name="deviceName" value="LENOVO Lenovo A7010a48 (Android 6.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\Katalon Studio\\Gitcode\\Katalon-git-astro\\Reports\\20240216_163444\\S1 Quit apps from homepage\\20240216_163444"/>
+         <property name="logFiles" value="C:\\Users\\USER\\Katalon Studio\\Gitcode\\Katalon-git-astro\\Reports\\20240216_163444\\S1 Quit apps from homepage\\20240216_163444\\appium.log, C:\\Users\\USER\\Katalon Studio\\Gitcode\\Katalon-git-astro\\Reports\\20240216_163444\\S1 Quit apps from homepage\\20240216_163444\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - DESKTOP-VIB7852"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Lenovo A7010a48"/>
+         <property name="hostAddress" value="192.168.24.48"/>
+         <property name="deviceManufacturer" value="LENOVO"/>
+         <property name="deviceId" value="Y9554SQWZD85YDOR"/>
+         <property name="deviceName" value="LENOVO Lenovo A7010a48 (Android 6.0)"/>
+         <property name="deviceOSVersion" value="6.0"/>
+      </properties>
+      <testcase name="Test Cases/Quit apps from home page" time="51.232" classname="Test Cases/Quit apps from home page" status="PASSED">
+         <system-out><![CDATA[2024-02-16 16:34:48 - [TEST_CASE][PASSED] - Test Cases/Quit apps from home page: Test Cases/Quit apps from home page
+
+2024-02-16 16:34:48 - [TEST_STEP][PASSED] - startExistingApplication("com.astro.shop"): Starting app with application ID: 'com.astro.shop'
+
+2024-02-16 16:34:49 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2024-02-16 16:34:51 - [MESSAGE][INFO] - Appium server started on port 55.428
+
+2024-02-16 16:35:16 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2024-02-16 16:35:17 - [MESSAGE][PASSED] - Starting app with application ID: 'com.astro.shop'
+
+2024-02-16 16:35:17 - [TEST_STEP][PASSED] - delay(15, STOP_ON_FAILURE): Delayed 15 second(s)
+
+2024-02-16 16:35:32 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2024-02-16 16:35:32 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2024-02-16 16:35:32 - [MESSAGE][PASSED] - Press back button successfully
+
+2024-02-16 16:35:32 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2024-02-16 16:35:37 - [MESSAGE][PASSED] - Press back button successfully
+
+2024-02-16 16:35:37 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2024-02-16 16:35:39 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-02-16 16:34:47 - [TEST_SUITE][PASSED] - S1 Quit apps from homepage: Test Cases/Quit apps from home page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

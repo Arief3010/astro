@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+S1 Quit apps from homepage,,,,2024-02-16 16:34:47,2024-02-16 16:35:39,"51,615s",PASSED
+,,,,,,,
+Test Cases/Quit apps from home page,,,,2024-02-16 16:34:48,2024-02-16 16:35:39,"51,232s",PASSED
+"startExistingApplication(""com.astro.shop"")",,,,2024-02-16 16:34:48,2024-02-16 16:35:17,"28,367s",PASSED
+"delay(15, STOP_ON_FAILURE)",,Estimasi menunggu page terload,,2024-02-16 16:35:17,2024-02-16 16:35:32,"15,056s",PASSED
+pressBack(),,,,2024-02-16 16:35:32,2024-02-16 16:35:32,"0,368s",PASSED
+pressBack(),,,,2024-02-16 16:35:32,2024-02-16 16:35:37,"4,938s",PASSED
+closeApplication(),,,,2024-02-16 16:35:37,2024-02-16 16:35:39,"1,862s",PASSED
